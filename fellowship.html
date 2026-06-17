@@ -130,7 +130,7 @@ document.getElementById('pgSub').textContent=CFG.subtitle;
 document.getElementById('legLabel').textContent=CFG.legendLabel+' (click to filter)';
 document.title=CFG.title;
 document.getElementById(CFG.mode==='residency'?'navRes':'navFel').classList.add('on');
-document.getElementById('foot').innerHTML='Draft visualization. No fabricated data; entries marked M/L or "not verified" need confirmation. '+(CFG.mode==='fellowship'?'Oncology track is partial (no public alumni list); reconstruction track from Lee Zhao CV. ':'')+'Movie-mode years approximate. Markers become headshots when img/&lt;slug&gt;.jpg exists.';
+document.getElementById('foot').innerHTML='All data is compiled from publicly available sources and presented as a draft for informational and educational purposes; this is not an official NYU Langone publication. Entries marked M/L or "not verified" need confirmation; movie-mode years are approximate. '+(CFG.mode==='fellowship'?'Oncology track is partial (no public alumni list); reconstruction track from Lee Zhao CV. ':'')+'Found an error, or want your entry updated or removed? Contact Lee Zhao at <a href="mailto:lee.zhao@nyulangone.org">lee.zhao@nyulangone.org</a>.';
 
 const map=L.map('map',{minZoom:2,worldCopyJump:true}).setView([34,-40],3);
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'&copy; OpenStreetMap &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);

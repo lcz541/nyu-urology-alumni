@@ -40,4 +40,6 @@ echo "-> robert-hotchkiss"
 if curl -fsSL -A "$ua" --max-time 30 "https://archives.med.nyu.edu/_flysystem/fedora/nyumed_571_JPG.jfif" -o "img/robert-hotchkiss.jpg" && [ -s "img/robert-hotchkiss.jpg" ]; then ok=$((ok+1)); else echo "  FAILED robert-hotchkiss"; rm -f "img/robert-hotchkiss.jpg"; fail=$((fail+1)); fi
 echo "-> salah-al-askari"
 if curl -fsSL -A "$ua" --max-time 30 "https://www.anera.org/wp-content/uploads/2017/03/ANERA-Planned-Giving-DrAskari-e1489163836204.jpg" -o "img/salah-al-askari.jpg" && [ -s "img/salah-al-askari.jpg" ]; then ok=$((ok+1)); else echo "  FAILED salah-al-askari"; rm -f "img/salah-al-askari.jpg"; fail=$((fail+1)); fi
+echo "-> pablo-morales"
+if curl -fsSL -A "$ua" --max-time 30 "https://assets.auanet.org/SITES/AUAnet/common/images/photos/GC__Morales_2013.jpg" -o "img/pablo-morales.jpg" && [ -s "img/pablo-morales.jpg" ]; then ok=$((ok+1)); else echo "  FAILED pablo-morales"; rm -f "img/pablo-morales.jpg"; fi
 echo "Faculty photos: saved $ok, failed $fail."

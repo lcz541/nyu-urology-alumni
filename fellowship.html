@@ -167,7 +167,7 @@ function bibHtml(p){const b=p.biblio;if(!b)return '';if(!b.h&&!b.pubs)return `<d
 
 function selectPerson(p){const d=document.getElementById('detail');d.style.display='';const car=p.career.map(c=>`<li><b>${c.year||'?'}</b> — ${c.place}${c.type==='origin'?' <span class="muted">(graduated)</span>':''}${c.approx?' <span class="muted">(approx.)</span>':''}</li>`).join('');
   document.getElementById('detailBody').innerHTML=`<img class="detimg" src="${p.photo}" onerror="this.remove()"><div class="nm">${p.name} <span class="conf ${p.confidence||''}">${p.confidence||'?'}</span></div>
-  <div class="meta">${CFG.mode==='residency'?'Residency':'Fellowship'} · class of ${p.year} ${p.medschool?('· '+p.medschool+' MD'):''}</div>
+  <div class="meta">${CFG.mode==='residency'?'Residency':'Fellowship'} · class of ${p.year||'year unverified'} ${p.medschool?('· '+p.medschool+' MD'):''}</div>
   <span class="chip" style="background:${p.color}">${p.cat}</span>
   <div class="kv"><b>Current:</b> ${p.institution||'—'} — ${p.city}${p.st?(', '+p.st):''} (${p.setting||'—'})</div>
   <div class="kv"><b>Fellowship:</b> ${p.fellowship||'—'}</div>

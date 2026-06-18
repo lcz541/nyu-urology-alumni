@@ -133,7 +133,7 @@ document.getElementById('pgSub').textContent=CFG.subtitle;
 document.getElementById('legLabel').textContent=CFG.legendLabel+' (click to filter)';
 document.title=CFG.title;
 document.getElementById(CFG.mode==='residency'?'navRes':'navFel').classList.add('on');
-document.getElementById('foot').innerHTML='All data is compiled from publicly available sources and presented as a draft for informational and educational purposes; this is not an official NYU Langone publication. Entries marked M/L or "not verified" need confirmation; movie-mode years are approximate. '+(CFG.mode==='fellowship'?'Oncology track is partial (no public alumni list); reconstruction track from Lee Zhao CV. ':'')+'Found an error, or want your entry updated or removed? Contact Lee Zhao at <a href="mailto:lee.zhao@nyulangone.org">lee.zhao@nyulangone.org</a>.';
+document.getElementById('foot').innerHTML='All data is compiled from publicly available sources and presented as a draft for informational and educational purposes; this is not an official NYU Langone publication. Entries marked M/L or "not verified" need confirmation; movie-mode years are approximate. '+(CFG.mode==='fellowship'?'Oncology track is partial (no public alumni list); reconstruction track from Lee Zhao CV. ':'')+'Found an error, or want your entry updated or removed? Contact Lee Zhao at <a href="mailto:lee.zhao@nyulangone.org">lee.zhao@nyulangone.org</a>.'+(CFG.mode==='residency'?' <b>Faded markers</b> = Doximity-attested alumni (medium confidence; approximate grad year; not independently verified).':'');
 
 const map=L.map('map',{minZoom:2,worldCopyJump:true}).setView([34,-40],3);
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'&copy; OpenStreetMap &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);
@@ -148,7 +148,7 @@ const markers={},lines={};
 const lineLayer=L.layerGroup().addTo(map), markerLayer=L.layerGroup().addTo(map);
 function makeIcon(p,s){s=s||16;return L.divIcon({className:'',html:`<div class="doticon" style="width:${s}px;height:${s}px;background:${p.color}"></div>`,iconSize:[s,s],iconAnchor:[s/2,s/2]});}
 function tryHeadshot(p,m){const img=new Image();img.onload=()=>{const s=26;m.setIcon(L.divIcon({className:'',html:`<div class="headicon" style="width:${s}px;height:${s}px;background-image:url('${p.photo}');box-shadow:0 0 0 2px ${p.color}"></div>`,iconSize:[s,s],iconAnchor:[s/2,s/2]}));};img.src=p.photo;}
-PEOPLE.forEach(p=>{if(!p.disp)return;const m=L.marker(p.disp,{icon:makeIcon(p)});m.on('click',()=>selectPerson(p));m.bindTooltip(`${p.name} '${String(p.year).slice(2)} — ${p.city}`,{direction:'top'});markers[p.slug]=m;tryHeadshot(p,m);lines[p.slug]=L.polyline([NYU,p.disp],{color:p.color,weight:1,opacity:.25});});
+PEOPLE.forEach(p=>{if(!p.disp)return;const m=L.marker(p.disp,{icon:makeIcon(p),opacity:p.doximity_year?0.5:1});m.on('click',()=>selectPerson(p));m.bindTooltip(`${p.name} '${String(p.year).slice(2)} — ${p.city}`,{direction:'top'});markers[p.slug]=m;tryHeadshot(p,m);lines[p.slug]=L.polyline([NYU,p.disp],{color:p.color,weight:1,opacity:.25});});
 
 const state={era:'',setting:'all',cats:new Set(CATS),search:'',lines:true};
 function inEra(y){if(!state.era)return true;if(!y)return false;const[a,b]=state.era.split('-').map(Number);return y>=a&&y<=b;}

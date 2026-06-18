@@ -1,0 +1,107 @@
+# Doximity yearbook candidates (NYU urology residency) NOT in our roster
+# format: doximity_year | name | city
+1991 | Bruce Kava | Miami, FL
+1991 | Russell Robbins | Wilton, CT
+1991 | Shirley Godiwalla | Pewaukee, WI
+1992 | Barry Lifson | Charleston, SC
+1992 | Georgios Patsias | Wellington, FL
+1990 | John Stoneham III | Toms River, NJ
+1990 | A. Scott Niditch | Wellsboro, PA
+1990 | Jeffrey Rosenblum | Philadelphia, PA
+1988 | David Cohen | Seaford, DE
+1988 | Scott Comiter | Pompano Beach, FL
+1987 | Murray Goldberg | Palm Beach Gardens, FL
+1987 | Fernando Gonzalez | Urbana, IL
+1987 | Andrew Simon | Manasquan, NJ
+1986 | Daniel Lama | San Bernardino, CA
+1986 | Arnold Leventhal | Lawrence, NY
+# --- 1980-1985 (UNVERIFIED; filter is over-inclusive, verify NYU urology residency before adding) ---
+1985 | Joseph Camilleri Jr | Hamden, CT
+1985 | Anthony Catanese | Somerville, NJ
+1985 | Joseph Mennen | Marshfield, WI
+1984 | Carlos Felix-Fretes | Mill Valley, CA
+1984 | Guido Dalbagni | New York, NY  (MSK uro-onc; verify NYU residency vs MSK)
+1984 | William Tuong | Bridgeport, WV
+1983 | Richard Baum | Midland Park, NJ
+1983 | Guillermo Vazquez | Hialeah, FL
+1983 | Marc Schwarzman | Princeton, NJ
+1982 | Alexander Bernath | Sherman, TX
+1982 | Ivan Grunberger | Brooklyn, NY
+1982 | Robert Washecka | Eau Claire, WI
+1982 | Glenn Bloiso | Williamsport, PA
+1981 | Janusz Plawner | New York, NY
+1981 | Leonard Silverstein | Bala Cynwyd, PA
+1981 | Jack Ebani | Neptune, NJ
+1981 | Jacob Heyman | New York, NY
+1981 | Sobhy Shehata | Palm Harbor, FL
+1980 | Craig Herman | Pompano Beach, FL
+1980 | Piyush Joshi | Melbourne, FL
+1980 | Robert Calciano | Brooklyn, NY
+1980 | Tanweer Quddusi | Bellflower, CA
+# EXCLUDED (wrong specialty): Charles Langs (Nephrology, 1983); George Weinhouse (Anesthesiology, 1980)
+# Already in roster (Doximity start-year): John Provet 1985; Robert Gluck 1984; Edward Geisler 1980; Andrew Simon (dup 1984/1987)
+# --- 1975-1979 (UNVERIFIED) ---
+1979 | Raymond Andronaco | Englewood, NJ  (on 2002 NYU faculty list - corroborated)
+1979 | Joseph Levy | St. Peters, MO
+1979 | Harvey Gutman | Smithtown, NY
+1979 | Parikshit Pandya | Temple, TX
+1978 | Yale Shulman | Jersey City, NJ  (on 2002 NYU faculty list - corroborated)
+1978 | Varon Garcias | Stockbridge, GA
+1977 | David Nachamie | Lincolnton, NC
+1977 | Francis Florio | Brooklyn, NY
+1976 | Philip Miller | Las Vegas, NV
+1976 | Gene Rosenberg | Hackensack, NJ
+1976 | Mark Vine | Cedarhurst, NY
+1975 | Naeem Pervaiz | Princeton, WV
+1975 | Mohammad Ghazi-Moghadam | Amsterdam, NY
+# Already in roster (start-year): Bernard Lehrhoff 1978
+# --- 1959-1974 (UNVERIFIED) ---
+1974 | Kenneth Licker | Frisco, TX
+1974 | Bechara Tabet | Canton, OH
+1974 | Malcolm Schwartz | Westfield, NJ
+1974 | Shozo Kurusu | Charleston, WV
+1974 | Robert Berson | West Islip, NY
+1973 | Louis Gennarelli | Bronx, NY
+1973 | Mariano Orca | Jackson, MS
+1973 | Francisco Recalde | San Diego, CA
+1973 | Steven Kallet | New York, NY
+1973 | Alan Sperber | New York, NY
+1972 | Francisco Yuvienco | New York, NY
+1972 | Roger Warner | New York, NY
+1972 | Barry Lazarus | Silverthorne, CO
+1972 | Shailendra Kapoor | Flemington, PA
+1971 | Elliot Cohen | Castle Point, NY
+1971 | Jeffrey Kossow | Cherry Hill, NJ
+1970 | Barry Aron | Gaithersburg, MD
+1970 | Parvez Mahmood | Toms River, NJ
+1970 | Azher Quader | Arlington Heights, IL
+1970 | Sheldon Rosenthal | Brooklyn, NY
+1970 | Mircea Golimbu | New York, NY  (on 2002 NYU faculty list - corroborated)
+1969 | Rohit Patel | Middletown, NY
+1968 | Joel Rosenberg | Clifton, NJ
+1968 | Pramod Sogani | New York, NY
+1968 | Robert Morrison | Meriden, CT
+1968 | Eduardo Farcon | New York, NY
+1968 | Martin Reichgut | Milford, CT
+1968 | Elliott Kraus | Pomona, NJ
+1967 | Norman Block | Miami, FL
+1967 | Jack Vitenson | Paramus, NJ
+1967 | Peter Livingston | New Albany, IN
+1966 | Ira Raff | Delray Beach, FL
+1966 | Henry Newman | Phoenix, AZ
+1966 | Robert Donohue | Denver, CO
+1966 | Juan Suarez | Miami, FL
+1965 | David Narins | White Plains, NY
+1965 | Birendra Tandan | Hammonton, NJ
+1965 | Robert Greene | Carmichael, CA
+1964 | Joseph Roberts | Butte Valley, CA
+1964 | Nader Sadoughi | Long Beach, CA
+1963 | Merritt Cohen | Millburn, NJ
+1963 | Alan Davidson | Woodbridge, CT
+1962 | James Stewart | Kailua, HI
+1961 | Mark Immergut | Rockville, MD
+1960 | Marcel Horowitz | Baltimore, MD
+1960 | Elliot Leiter | Bainbridge Island, WA
+1960 | Stephen Fortunoff | Scottsdale, AZ
+1959 | Bert Berlin | Hartford, CT
+# EXCLUDED non-urology: Wayne Keiserman (Family Med, 1972); Govinda Thakkar (Plastic Surg, 1971); Alexander Peck Jr (Anesthesiology, 1969); Vincent Montemarano (General Surgery, 1969)
